@@ -1,0 +1,25 @@
+{
+  "name": "igor-relay",
+  "version": "1.0.0",
+  "description": "Listens for Firebase changes to update home automation configs or trigger services",
+  "main": "dist/main.js",
+  "scripts": {
+    "debug": "tsc && node dist/main.js",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "home-automation"
+  ],
+  "author": "Adam Bright",
+  "license": "MPL-2.0",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "firebase-admin": "^5.5.1",
+    "promise": "^8.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.53",
+    "typescript": "^2.6.1"
+  }
+}
